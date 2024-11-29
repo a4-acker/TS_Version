@@ -13,5 +13,10 @@
         "name": "Project C",
         "version": "7.1.9",
         "path": "/TS_Version/project-c/"
+    },
+    {
+        "name": "Project D",
+        "version": "0.9.9",
+        "path": "/TS_Version/project-d/"
     }
 ]
