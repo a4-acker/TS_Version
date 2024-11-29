@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/TS_Version/"> 
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>

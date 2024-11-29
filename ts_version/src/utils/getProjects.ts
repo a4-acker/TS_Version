@@ -5,7 +5,7 @@ export interface Project {
 }
 
 export async function fetchProjects(): Promise<Project[]> {
-    const response = await fetch('/subprojects.json'); // 假設你有一個靜態 JSON 檔案來描述子目錄
+    const response = await fetch('./subprojects.json'); 
     const projects: Project[] = await response.json();
     return projects;
 }
