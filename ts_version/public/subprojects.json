@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Project A",
+        "version": "1.0.0",
+        "path": "/project-a/"
+    },
+    {
+        "name": "Project B",
+        "version": "2.3.4",
+        "path": "/project-b/"
+    }
+]
